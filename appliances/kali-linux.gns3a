@@ -25,8 +25,8 @@
             "version": "2.0",
             "md5sum": "ef192433017c5d99a156eaef51fd389d",
             "filesize": 3320512512,
-            "download_url": "https://www.offensive-security.com/kali-linux-vmware-arm-image-download/",
-            "direct_download_url": "http://images.kali.org/Kali-Linux-2.0.0-vm-amd64.7z"
+            "download_url": "http://cdimage.kali.org/kali-2.0/",
+            "direct_download_url": "http://cdimage.kali.org/kali-2.0/kali-linux-light-2.0-amd64.iso"
         }
     ],
     "versions": [
