@@ -24,17 +24,17 @@
     },
     "images": [
         {
-            "filename": "VI-SFMOS_15.01.0.KVM-301-PRIMARY.qcow2",
-            "version": "15.01",
-            "md5sum": "a2cb14ed93de1550afef49984b11b56f",
-            "filesize": 706412544,
+            "filename": "PRIMARY-DISK.qcow2",
+            "version": "15.01.0_MR-1.1.KVM-407",
+            "md5sum": "986875940b473750f2c37269671d3bc5",
+            "filesize": 199032832,
             "download_url": "https://secure2.sophos.com/en-us/products/next-gen-firewall/free-trial.aspx"
         },
         {
-            "filename": "VI-SFMOS_15.01.0.KVM-301-AUXILARY.qcow2",
-            "version": "15.01",
-            "md5sum": "43cf82ac1f7b0eb6550f0e203daa6b96",
-            "filesize": 199168,
+            "filename": "AUXILIARY-DISK.qcow2",
+            "version": "15.01.0_MR-1.1.KVM-407",
+            "md5sum": "8c066dc845ff95f7c54a4ef4e979658b",
+            "filesize": 59441152,
             "download_url": "https://secure2.sophos.com/en-us/products/next-gen-firewall/free-trial.aspx"
         }
     ],
@@ -42,8 +42,8 @@
         {
             "name": "15.01",
             "images": {
-                "hda_disk_image": "VI-SFMOS_15.01.0.KVM-301-PRIMARY.qcow2",
-                "hdb_disk_image": "VI-SFMOS_15.01.0.KVM-301-AUXILARY.qcow2"
+                "hda_disk_image": "PRIMARY-DISK.qcow2",
+                "hdb_disk_image": "AUXILIARY-DISK.qcow2"
             }
         }
     ]
